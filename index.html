@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Webpack Monitor</title>
+
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- template skin -->
+  <link id="t-colors" href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+
+  <div id="wrapper">
+
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container navigation">
+
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img src="img/wpmlogo.png"/> Webpack Monitor</h1>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <li><div id="cart"></div></li>
+
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Section: intro -->
+
+
+
+
+    <section id="intro" class="intro">
+      <div class="intro-content">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
+                <img src="img/overview.gif" class="img-responsive" alt="" />
+
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 slogan">
+              <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+                <h2>The Ultimate Optimization Tool For Modern Web Development</h2>
+                <p>
+                  Your app's user experience needs to be fast and efficient in order to trend. It is important to monitor your bundle size constantly to identify inefficiencies.
+                  Webpack Monitor provides analysis throughout the development process. Changes in the app that may have a detrimental effect on bundle size and performance can be identified before deployment.
+                  Your bundle will be analyzed using our custom algorithm and optimization recommendations are generated. You can apply optimizations to your webpack configuration instantly.
+                  Download Webpack Monitor by npm installing today!
+
+                </p>
+
+              </div>
+              <div class="buttons">
+                <a href="https://github.com/webpackmonitor/webpackmonitor" class="btn btn-success btn-lg wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s"><img src="img/github.png" /> <br /></a>
+                <a href="https://www.npmjs.com/package/webpack-monitor" class="npm btn btn-info btn-lg wow fadeInRight" data-wow-duration="3s" data-wow-delay="0.3s"><img src="img/npm.png" />  <br /></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Section: intro -->
+    <div class="divider-short"></div>
+
+    <section id="content1" class="home-section">
+
+      <div class="container">
+        <div class="row text-center heading">
+          <h3>Features</h3>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="wow fadeInLeft" data-wow-delay="0.2s">
+              <img src="img/build.gif" alt="" class="img-responsive" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="wow fadeInRight" data-wow-delay="0.3s">
+              <div class="features">
+                <i class="fa fa-check fa-2x circled bg-skin float-left"></i>
+                <h5>Dashboard</h5>
+                <p>
+                  Know what is in your bundle at all times. Elegant dashboard that displays your bundle so you can make informed descisions about your optimizations.
+                </p>
+              </div>
+              <div class="features">
+                <i class="fa fa-check fa-2x circled bg-skin float-left"></i>
+                <h5>Recommendations</h5>
+                <p>
+                  Implement the best practice optimizations into your project easily and create a fast and effcient user experience.
+                </p>
+              </div>
+              <div class="features">
+                <i class="fa fa-check fa-2x circled bg-skin float-left"></i>
+                <h5>Bundle History</h5>
+                <p>
+                  Monitor your bundle history so you can check when your bundle file is getting too big before it becomes unmanageble.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- /Section: content -->
+    <div class="divider-short"></div>
+
+    <section id="content2" class="home-section">
+
+      <div class="container">
+        <div class="row text-center heading">
+          <h3>Installation Instructions</h3>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="wow fadeInLeft" data-wow-delay="0.2s">
+
+              <h1>Installation</h1>
+              <p>Install the plugin with npm:</p>
+              <div class="highlight shell"><pre class="editor editor-colors"><div class="line"><span class="source shell"><span>npm&nbsp;install&nbsp;webpack-monitor&nbsp;--save-dev</span></span></div></pre></div>
+              <br>
+              <h1>Basic Usage</h1>
+              <div class="highlight javascript"><pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage type js"><span>const</span></span><span>&nbsp;</span><span class="constant other js"><span>WebpackMonitor</span></span><span>&nbsp;</span><span class="keyword operator assignment js"><span>=</span></span><span>&nbsp;</span><span class="meta function-call js"><span class="support function js"><span>require</span></span><span class="meta js"><span class="punctuation definition begin round js"><span>(</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>webpack-monitor</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="punctuation definition end round js"><span>)</span></span></span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div><div class="line"><span class="source js"><span class="storage type js"><span>const</span></span><span>&nbsp;</span><span class="constant other js"><span>webpackConfig</span></span><span>&nbsp;</span><span class="keyword operator assignment js"><span>=</span></span><span>&nbsp;</span><span class="meta brace curly js"><span>{</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;entry</span><span class="keyword operator assignment js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>index.js</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta delimiter object comma js"><span>,</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;output</span><span class="keyword operator assignment js"><span>:</span></span><span>&nbsp;</span><span class="meta brace curly js"><span>{</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;&nbsp;&nbsp;path</span><span class="keyword operator assignment js"><span>:</span></span><span>&nbsp;</span><span class="support variable js"><span>__dirname</span></span><span>&nbsp;</span><span class="keyword operator js"><span>+</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>/dist</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta delimiter object comma js"><span>,</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;&nbsp;&nbsp;filename</span><span class="keyword operator assignment js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>bundle.js</span><span class="punctuation definition string end js"><span>'</span></span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;</span><span class="meta brace curly js"><span>}</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;plugins</span><span class="keyword operator assignment js"><span>:</span></span><span>&nbsp;</span><span class="meta brace square js"><span>[</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta class instance constructor js"><span class="keyword operator js"><span>new</span></span><span>&nbsp;</span><span class="entity name type instance js"><span>WebpackMonitor</span></span></span><span class="meta brace round js"><span>(</span></span><span class="meta brace curly js"><span>{</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;capture</span><span class="keyword operator assignment js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;launch</span><span class="keyword operator assignment js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta brace curly js"><span>}</span></span><span class="meta brace round js"><span>)</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></div><div class="line"><span class="source js"><span>&nbsp;&nbsp;</span><span class="meta brace square js"><span>]</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></div><div class="line"><span class="source js"><span class="meta brace curly js"><span>}</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></div></pre></div>
+
+              <div>
+                <p>The plugin accepts the following options.</p>
+                <ul>
+                  <li><code>target</code>: The route for the outputted JSON stats file (relative to build directory). Defaults to <code>../monitor/stats.json</code></li>
+                  <li><code>launch</code>: If true, start server and launch webpack monitor analysis dashboard. Default <code>false</code></li>
+                  <li><code>capture</code>: Capture stats on current build if different from previous build. Default <code>true</code>.</li>
+                  <li><code>port</code>: port at which to serve webpack monitor dashboard on launch. Default <code>8081</code></li>
+                </ul>
+              </div>
+
+      </div>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="col-md-6">
+      <div class="wow fadeInRight" data-wow-delay="0.3s">
+        <img src="img/recommendations.gif" alt="" class="img-responsive" />
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+<!-- /Section: content -->
+<div class="divider-short"></div>
+
+<section id="content2" class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="heading-title text-center">
+        <h3 class="text-uppercase">Our amazing team.</h3>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="team-member">
+          <div class="team-img">
+            <img src="img/member-pic1.png" alt="team member" class="img-responsive">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>Hi There !</h4>
+              <p>Bachelors from UC Santa Barbara with 2 years of engineering experience.</p>
+            </div>
+            <div class="s-link">
+              <a href="https://www.linkedin.com/in/gordonu/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/gordonu"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-title">
+          <h5>Gordon Yu</h5>
+          <span>Software Engineer</span>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="team-member">
+          <div class="team-img">
+            <img src="img/member-pic2.png" alt="team member" class="img-responsive">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>Hello World</h4>
+              <p>Bachelors from CSULB with masterful Javascript experience.</p>
+            </div>
+            <div class="s-link">
+              <a href="https://www.linkedin.com/in/balal-zuhair/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/bzuhair"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-title">
+          <h5>Balal Zuhair</h5>
+          <span>Software Engineer</span>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="team-member">
+          <div class="team-img">
+            <img src="img/member-pic3.png" alt="team member" class="img-responsive">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>I love to design</h4>
+              <p>Seasoned engineer with excellent technical communication.</p>
+            </div>
+            <div class="s-link">
+              <a href="https://www.linkedin.com/in/roachjc/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/roachjc"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-title">
+          <h5>Jon Roach</h5>
+          <span>Software Engineer</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="callaction" class="home-section paddingtop-40">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="callaction">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="wow fadeInUp" data-wow-delay="0.1s">
+                <div class="cta-text">
+                  <h3>Need a feature?</h3>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 col-md-offset-2">
+                        <div class="well well-sm">
+                          <form class="form-horizontal" action="" method="post">
+                            <fieldset>
+                              <legend class="text-center">Contact us</legend>
+
+                              <!-- Name input-->
+                              <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">Name</label>
+                                <div class="col-md-9">
+                                  <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                </div>
+                              </div>
+
+                              <!-- Email input-->
+                              <div class="form-group">
+                                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                <div class="col-md-9">
+                                  <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                </div>
+                              </div>
+
+                              <!-- Message body -->
+                              <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Your message</label>
+                                <div class="col-md-9">
+                                  <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                </div>
+                              </div>
+
+                              <!-- Form actions -->
+                              <div class="form-group">
+                                <div class="col-md-12 text-right">
+                                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                              </div>
+                            </fieldset>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wow lightSpeedIn" data-wow-delay="0.1s">
+                <div class="cta-btn">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<!-- Core JavaScript Files -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
