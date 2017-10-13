@@ -401,8 +401,12 @@ animation: load8 1.1s infinite linear;
 .returnHead {
   width: 100%;
   height: 25px;
-  background-color: #000000;
+  background-color: #8f9cae;
   text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
 }
 
 header {
