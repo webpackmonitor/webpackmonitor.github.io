@@ -1,0 +1,6952 @@
+[
+  {
+    "timeStamp": 1506648119933,
+    "time": 874,
+    "hash": "7229f7e1256c7b7e606c",
+    "errors": [],
+    "size": 2841,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 2661,
+        "miniSize": 2390,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 180
+      }
+    ],
+    "chunks": [
+      {
+        "size": 188,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 188,
+            "id": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506648398676,
+    "time": 756,
+    "hash": "7bd0ad3528fb3d082b93",
+    "errors": [
+      "./app/lazy.css\nModule parse failed: /Users/jonroach/Programming/codesmith/production-project/stats-creator/app/lazy.css Unexpected token (1:5)\nYou may need an appropriate loader to handle this file type.\n| body {\n|   color: blue;\n| }\n @ ./app/lazy.js 1:0-20\n @ ./app/index.js"
+    ],
+    "size": 3777,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 3597,
+        "miniSize": 3272,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 180
+      }
+    ],
+    "chunks": [
+      {
+        "size": 512,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 215,
+            "id": 0
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 1
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 242,
+            "id": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506648445138,
+    "time": 1291,
+    "hash": "ea0e3870c148e6a9e955",
+    "errors": [],
+    "size": 18876,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 18696,
+        "miniSize": 16458,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 180
+      }
+    ],
+    "chunks": [
+      {
+        "size": 15429,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 215,
+            "id": 0
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 1
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 997,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./app/lazy.css",
+            "size": 190,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506648536859,
+    "time": 1148,
+    "hash": "c67d621c0c4b1dd444e7",
+    "errors": [],
+    "size": 3638,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 3396,
+        "miniSize": 3072,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 24
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 218
+      }
+    ],
+    "chunks": [
+      {
+        "size": 311,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 215,
+            "id": 0
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 1
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 2
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 23,
+    "unPureCssSize": 24
+  },
+  {
+    "timeStamp": 1506648622504,
+    "time": 2414,
+    "hash": "67e1fb3668dddf7f8241",
+    "errors": [],
+    "size": 156358,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 156116,
+        "miniSize": 134898,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 24
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 218
+      }
+    ],
+    "chunks": [
+      {
+        "size": 148274,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./app/index.js",
+            "size": 212,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 36
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 37
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 38
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 23,
+    "unPureCssSize": 24
+  },
+  {
+    "timeStamp": 1506653310583,
+    "time": 2076,
+    "hash": "3b01b56627af0c69486c",
+    "errors": [],
+    "size": 176061,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 15934,
+        "miniSize": 13960,
+        "minified": false
+      },
+      {
+        "name": "app.js",
+        "chunks": [
+          1
+        ],
+        "size": 1329,
+        "miniSize": 1197,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          2
+        ],
+        "size": 158562,
+        "miniSize": 136946,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 236
+      }
+    ],
+    "chunks": [
+      {
+        "size": 15214,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 39
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 997,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/css-loader!./app/lazy.css",
+            "size": 190,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 44
+          }
+        ]
+      },
+      {
+        "size": 576,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 212,
+            "id": 19
+          },
+          {
+            "name": "./app/component.js",
+            "size": 364,
+            "id": 37
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 36
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506653360077,
+    "time": 2185,
+    "hash": "3dbac4df8b70cce304b9",
+    "errors": [],
+    "size": 176055,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 15934,
+        "miniSize": 13960,
+        "minified": false
+      },
+      {
+        "name": "app.js",
+        "chunks": [
+          1
+        ],
+        "size": 1323,
+        "miniSize": 1191,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          2
+        ],
+        "size": 158562,
+        "miniSize": 136946,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 236
+      }
+    ],
+    "chunks": [
+      {
+        "size": 15214,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 39
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 997,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/css-loader!./app/lazy.css",
+            "size": 190,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 44
+          }
+        ]
+      },
+      {
+        "size": 570,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 212,
+            "id": 19
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 37
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 36
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506653462584,
+    "time": 2309,
+    "hash": "9b63e56cd420237b8121",
+    "errors": [
+      "./app/main.css\nModule build failed: ModuleParseError: Module parse failed: /Users/jonroach/Programming/codesmith/production-project/stats-creator/app/logo.png Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n    at doBuild (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/webpack/lib/NormalModule.js:303:19)\n    at runLoaders (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/webpack/lib/NormalModule.js:209:11)\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:370:3\n    at iterateNormalLoaders (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:211:10)\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:202:4\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:70:14\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)",
+      "./app/logo.png\nModule parse failed: /Users/jonroach/Programming/codesmith/production-project/stats-creator/app/logo.png Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n @ ./node_modules/css-loader!./app/main.css 6:87-108\n @ ./app/main.css\n @ ./app/index.js"
+    ],
+    "size": 177603,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 1758,
+        "miniSize": 1609,
+        "minified": false
+      },
+      {
+        "name": "app.js",
+        "chunks": [
+          1
+        ],
+        "size": 2867,
+        "miniSize": 2712,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          2
+        ],
+        "size": 172742,
+        "miniSize": 149306,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 236
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1242,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 43
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 997,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/css-loader!./app/lazy.css",
+            "size": 190,
+            "id": 45
+          }
+        ]
+      },
+      {
+        "size": 1844,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 209,
+            "id": 19
+          },
+          {
+            "name": "./app/main.css",
+            "size": 1277,
+            "id": 37
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 39
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 38
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506653501856,
+    "time": 2022,
+    "hash": "1dcb6b68307f64b8b464",
+    "errors": [],
+    "size": 177625,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 1758,
+        "miniSize": 1609,
+        "minified": false
+      },
+      {
+        "name": "app.js",
+        "chunks": [
+          1
+        ],
+        "size": 1631,
+        "miniSize": 1477,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          2
+        ],
+        "size": 172742,
+        "miniSize": 149306,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          1
+        ],
+        "size": 1220
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1242,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 43
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 997,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/css-loader!./app/lazy.css",
+            "size": 190,
+            "id": 45
+          }
+        ]
+      },
+      {
+        "size": 608,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 209,
+            "id": 19
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 37
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 39
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 38
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 42
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 1220,
+    "unPureCssSize": 1220
+  },
+  {
+    "timeStamp": 1506653708676,
+    "time": 2144,
+    "hash": "9b63e56cd420237b8121",
+    "errors": [
+      "./app/main.css\nModule build failed: ModuleParseError: Module parse failed: /Users/jonroach/Programming/codesmith/production-project/stats-creator/app/logo.png Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n    at doBuild (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/webpack/lib/NormalModule.js:303:19)\n    at runLoaders (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/webpack/lib/NormalModule.js:209:11)\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:370:3\n    at iterateNormalLoaders (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:211:10)\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:202:4\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:70:14\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)",
+      "./app/logo.png\nModule parse failed: /Users/jonroach/Programming/codesmith/production-project/stats-creator/app/logo.png Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n @ ./node_modules/css-loader!./app/main.css 6:87-108\n @ ./app/main.css\n @ ./app/index.js"
+    ],
+    "size": 177603,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 1758,
+        "miniSize": 1609,
+        "minified": false
+      },
+      {
+        "name": "app.js",
+        "chunks": [
+          1
+        ],
+        "size": 2867,
+        "miniSize": 2712,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          2
+        ],
+        "size": 172742,
+        "miniSize": 149306,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 236
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1242,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 43
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 997,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/css-loader!./app/lazy.css",
+            "size": 190,
+            "id": 45
+          }
+        ]
+      },
+      {
+        "size": 1844,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 209,
+            "id": 19
+          },
+          {
+            "name": "./app/main.css",
+            "size": 1277,
+            "id": 37
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 39
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 38
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506653723069,
+    "time": 2013,
+    "hash": "3dbac4df8b70cce304b9",
+    "errors": [],
+    "size": 176055,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 15934,
+        "miniSize": 13960,
+        "minified": false
+      },
+      {
+        "name": "app.js",
+        "chunks": [
+          1
+        ],
+        "size": 1323,
+        "miniSize": 1191,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          2
+        ],
+        "size": 158562,
+        "miniSize": 136946,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 236
+      }
+    ],
+    "chunks": [
+      {
+        "size": 15214,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 39
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 997,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/css-loader!./app/lazy.css",
+            "size": 190,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 44
+          }
+        ]
+      },
+      {
+        "size": 570,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 212,
+            "id": 19
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 37
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 36
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1506653801075,
+    "time": 2422,
+    "hash": "163f1206840db7418d48",
+    "errors": [],
+    "size": 312270,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 156881,
+        "miniSize": 135559,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 155091,
+        "miniSize": 133929,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 24
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 148629,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 36
+          },
+          {
+            "name": "./app/index.js",
+            "size": 209,
+            "id": 37
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 38
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 39
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 40
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 23,
+    "unPureCssSize": 24
+  },
+  {
+    "timeStamp": 1506653898448,
+    "time": 2921,
+    "hash": "4db33f18979429d8a80c",
+    "errors": [
+      "./app/main.css\nModule build failed: ModuleParseError: Module parse failed: /Users/jonroach/Programming/codesmith/production-project/stats-creator/app/logo.png Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n    at doBuild (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/webpack/lib/NormalModule.js:303:19)\n    at runLoaders (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/webpack/lib/NormalModule.js:209:11)\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:370:3\n    at iterateNormalLoaders (/Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:211:10)\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/loader-runner/lib/LoaderRunner.js:202:4\n    at /Users/jonroach/Programming/codesmith/production-project/stats-creator/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:70:14\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)",
+      "./app/logo.png\nModule parse failed: /Users/jonroach/Programming/codesmith/production-project/stats-creator/app/logo.png Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n @ ./node_modules/css-loader!./app/main.css 6:87-108\n @ ./app/main.css\n @ ./app/index.js"
+    ],
+    "size": 330584,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 158726,
+        "miniSize": 137363,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 155111,
+        "miniSize": 133947,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 16473
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 149941,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 36
+          },
+          {
+            "name": "./app/index.js",
+            "size": 203,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 38
+          },
+          {
+            "name": "./app/main.css",
+            "size": 1277,
+            "id": 39
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 40
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 41
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 42
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 2603,
+    "unPureCssSize": 16473
+  },
+  {
+    "timeStamp": 1506653931984,
+    "time": 3123,
+    "hash": "d7a6bb26849f1ea64baa",
+    "errors": [],
+    "size": 330568,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 157490,
+        "miniSize": 136128,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 155111,
+        "miniSize": 133947,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 17693
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 148705,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 36
+          },
+          {
+            "name": "./app/index.js",
+            "size": 203,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 38
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 39
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 40
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 41
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 42
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 3825,
+    "unPureCssSize": 17693
+  },
+  {
+    "timeStamp": 1506654049197,
+    "time": 3786,
+    "hash": "6564c8f82d2ff4e490d9",
+    "errors": [],
+    "size": 367829,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 157845,
+        "miniSize": 136463,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 155121,
+        "miniSize": 133956,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 54589
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 148743,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 36
+          },
+          {
+            "name": "./app/index.js",
+            "size": 200,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 39
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 40
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 41
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 42
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 43
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 9323,
+    "unPureCssSize": 54589
+  },
+  {
+    "timeStamp": 1506654171885,
+    "time": 4237,
+    "hash": "afb849a715015ceb9008",
+    "errors": [],
+    "size": 438489,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 228375,
+        "miniSize": 193934,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 155251,
+        "miniSize": 134073,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 54589
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 218380,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 36
+          },
+          {
+            "name": "./app/index.js",
+            "size": 220,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/bootstrap/dist/js/npm.js",
+            "size": 484,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/bootstrap/js/transition.js",
+            "size": 1831,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/bootstrap/js/alert.js",
+            "size": 2284,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/bootstrap/js/button.js",
+            "size": 3824,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/bootstrap/js/carousel.js",
+            "size": 7141,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/bootstrap/js/collapse.js",
+            "size": 5991,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/bootstrap/js/dropdown.js",
+            "size": 4743,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/bootstrap/js/modal.js",
+            "size": 9987,
+            "id": 47
+          },
+          {
+            "name": "./node_modules/bootstrap/js/tooltip.js",
+            "size": 16719,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/bootstrap/js/popover.js",
+            "size": 3163,
+            "id": 49
+          },
+          {
+            "name": "./node_modules/bootstrap/js/scrollspy.js",
+            "size": 4707,
+            "id": 50
+          },
+          {
+            "name": "./node_modules/bootstrap/js/tab.js",
+            "size": 3905,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/bootstrap/js/affix.js",
+            "size": 4838,
+            "id": 52
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 53
+          },
+          {
+            "name": "./app/component.js",
+            "size": 358,
+            "id": 54
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 55
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 56
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 11574,
+    "unPureCssSize": 54589
+  },
+  {
+    "timeStamp": 1506654205258,
+    "time": 4111,
+    "hash": "7e3129fc4ba6329ae18e",
+    "errors": [],
+    "size": 438483,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 228369,
+        "miniSize": 193928,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 155251,
+        "miniSize": 134073,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 54589
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 218374,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 36
+          },
+          {
+            "name": "./app/index.js",
+            "size": 220,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/bootstrap/dist/js/npm.js",
+            "size": 484,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/bootstrap/js/transition.js",
+            "size": 1831,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/bootstrap/js/alert.js",
+            "size": 2284,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/bootstrap/js/button.js",
+            "size": 3824,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/bootstrap/js/carousel.js",
+            "size": 7141,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/bootstrap/js/collapse.js",
+            "size": 5991,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/bootstrap/js/dropdown.js",
+            "size": 4743,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/bootstrap/js/modal.js",
+            "size": 9987,
+            "id": 47
+          },
+          {
+            "name": "./node_modules/bootstrap/js/tooltip.js",
+            "size": 16719,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/bootstrap/js/popover.js",
+            "size": 3163,
+            "id": 49
+          },
+          {
+            "name": "./node_modules/bootstrap/js/scrollspy.js",
+            "size": 4707,
+            "id": 50
+          },
+          {
+            "name": "./node_modules/bootstrap/js/tab.js",
+            "size": 3905,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/bootstrap/js/affix.js",
+            "size": 4838,
+            "id": 52
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 53
+          },
+          {
+            "name": "./app/component.js",
+            "size": 352,
+            "id": 54
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 55
+          }
+        ]
+      },
+      {
+        "size": 147994,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 35
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 56
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 11574,
+    "unPureCssSize": 54589
+  },
+  {
+    "timeStamp": 1506654525422,
+    "time": 3942,
+    "hash": "89970117dc2e5e772814",
+    "errors": [],
+    "size": 301124,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 3181,
+        "miniSize": 2916,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 243080,
+        "miniSize": 206590,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 54589
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 791,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 19
+          },
+          {
+            "name": "./app/index.js",
+            "size": 220,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 23
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 54
+          },
+          {
+            "name": "./app/component.js",
+            "size": 352,
+            "id": 55
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 56
+          }
+        ]
+      },
+      {
+        "size": 231583,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/bootstrap/dist/js/npm.js",
+            "size": 484,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/bootstrap/js/transition.js",
+            "size": 1831,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/bootstrap/js/alert.js",
+            "size": 2284,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/bootstrap/js/button.js",
+            "size": 3824,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/bootstrap/js/carousel.js",
+            "size": 7141,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/bootstrap/js/collapse.js",
+            "size": 5991,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/bootstrap/js/dropdown.js",
+            "size": 4743,
+            "id": 47
+          },
+          {
+            "name": "./node_modules/bootstrap/js/modal.js",
+            "size": 9987,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/bootstrap/js/tooltip.js",
+            "size": 16719,
+            "id": 49
+          },
+          {
+            "name": "./node_modules/bootstrap/js/popover.js",
+            "size": 3163,
+            "id": 50
+          },
+          {
+            "name": "./node_modules/bootstrap/js/scrollspy.js",
+            "size": 4707,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/bootstrap/js/tab.js",
+            "size": 3905,
+            "id": 52
+          },
+          {
+            "name": "./node_modules/bootstrap/js/affix.js",
+            "size": 4838,
+            "id": 53
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 57
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 58
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 59
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 11979,
+    "unPureCssSize": 54589
+  },
+  {
+    "timeStamp": 1506654658236,
+    "time": 4025,
+    "hash": "8ffb597bd7260b5af502",
+    "errors": [],
+    "size": 179084,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 2972,
+        "miniSize": 2716,
+        "minified": false
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 172782,
+        "miniSize": 149342,
+        "minified": false
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 3056
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 794,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 19
+          },
+          {
+            "name": "./app/index.js",
+            "size": 223,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 23
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 41
+          },
+          {
+            "name": "./app/component.js",
+            "size": 352,
+            "id": 42
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 43
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 40
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 46
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 3056,
+    "unPureCssSize": 3056
+  },
+  {
+    "timeStamp": 1506657418946,
+    "time": 8157,
+    "hash": "9e547990ac2a89c96173",
+    "errors": [],
+    "size": 57004,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 754,
+        "minified": true
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 51126,
+        "minified": true
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 4850
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 865,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 19
+          },
+          {
+            "name": "./app/index.js",
+            "size": 253,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 23
+          },
+          {
+            "name": "./app/bootstrap.min.css",
+            "size": 41,
+            "id": 41
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 42
+          },
+          {
+            "name": "./app/component.js",
+            "size": 352,
+            "id": 43
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 44
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 40
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 47
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 4785,
+    "unPureCssSize": 4850
+  },
+  {
+    "timeStamp": 1506657796498,
+    "time": 7724,
+    "hash": "9e547990ac2a89c96173",
+    "errors": [],
+    "size": 231659,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 754,
+        "minified": true
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 51126,
+        "minified": true
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 179505
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 865,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 19
+          },
+          {
+            "name": "./app/index.js",
+            "size": 253,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 23
+          },
+          {
+            "name": "./app/bootstrap.min.css",
+            "size": 41,
+            "id": 41
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 42
+          },
+          {
+            "name": "./app/component.js",
+            "size": 352,
+            "id": 43
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 44
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 40
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 47
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 19159,
+    "unPureCssSize": 179505
+  },
+  {
+    "timeStamp": 1506658055637,
+    "time": 8811,
+    "hash": "4b738ef2e29829536de2",
+    "errors": [],
+    "size": 231743,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 838,
+        "minified": true
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 51126,
+        "minified": true
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 179505
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 960,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 19
+          },
+          {
+            "name": "./app/index.js",
+            "size": 253,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 23
+          },
+          {
+            "name": "./app/bootstrap.min.css",
+            "size": 41,
+            "id": 41
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 42
+          },
+          {
+            "name": "./app/component.js",
+            "size": 447,
+            "id": 43
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 44
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 40
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 47
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 21099,
+    "unPureCssSize": 179505
+  },
+  {
+    "timeStamp": 1506658086784,
+    "time": 7993,
+    "hash": "4b738ef2e29829536de2",
+    "errors": [],
+    "size": 57319,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 838,
+        "minified": true
+      },
+      {
+        "name": "vendor.js",
+        "chunks": [
+          1
+        ],
+        "size": 51126,
+        "minified": true
+      },
+      {
+        "name": "app.css",
+        "chunks": [
+          0
+        ],
+        "size": 5081
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 274
+      }
+    ],
+    "chunks": [
+      {
+        "size": 960,
+        "files": [
+          "app.js",
+          "app.css"
+        ],
+        "modules": [
+          {
+            "name": "./app/lazy.js",
+            "size": 55,
+            "id": 19
+          },
+          {
+            "name": "./app/index.js",
+            "size": 253,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/purecss/build/pure-min.css",
+            "size": 41,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/font-awesome/css/font-awesome.css",
+            "size": 41,
+            "id": 23
+          },
+          {
+            "name": "./app/bootstrap.min.css",
+            "size": 41,
+            "id": 41
+          },
+          {
+            "name": "./app/main.css",
+            "size": 41,
+            "id": 42
+          },
+          {
+            "name": "./app/component.js",
+            "size": 447,
+            "id": 43
+          },
+          {
+            "name": "./app/lazy.css",
+            "size": 41,
+            "id": 44
+          }
+        ]
+      },
+      {
+        "size": 161966,
+        "files": [
+          "vendor.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/fbjs/lib/warning.js",
+            "size": 2016,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1632,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElement.js",
+            "size": 11233,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react/lib/reactProdInvariant.js",
+            "size": 1236,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/react/lib/canDefineProperty.js",
+            "size": 661,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/lib/ReactCurrentOwner.js",
+            "size": 621,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 1085,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/react/lib/lowPriorityWarning.js",
+            "size": 2162,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react/lib/ReactComponentTreeHook.js",
+            "size": 11795,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react/react.js",
+            "size": 56,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/react/lib/ReactBaseClasses.js",
+            "size": 5436,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/react/lib/ReactNoopUpdateQueue.js",
+            "size": 3362,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 458,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementSymbol.js",
+            "size": 622,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/react/lib/getIteratorFn.js",
+            "size": 1119,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/react/lib/ReactElementValidator.js",
+            "size": 9198,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 436,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3008,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react/lib/React.js",
+            "size": 5078,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/lib/ReactChildren.js",
+            "size": 6189,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/react/lib/PooledClass.js",
+            "size": 3356,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react/lib/traverseAllChildren.js",
+            "size": 7030,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/react/lib/KeyEscapeUtils.js",
+            "size": 1294,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react/lib/ReactDOMFactories.js",
+            "size": 5481,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/react/lib/checkReactTypeSpec.js",
+            "size": 4193,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypeLocationNames.js",
+            "size": 572,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypesSecret.js",
+            "size": 442,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/react/lib/ReactPropTypes.js",
+            "size": 500,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/prop-types/factory.js",
+            "size": 890,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 18600,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 2935,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/react/lib/ReactVersion.js",
+            "size": 350,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/react/lib/createClass.js",
+            "size": 688,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/create-react-class/factory.js",
+            "size": 28376,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/react/lib/onlyChild.js",
+            "size": 1338,
+            "id": 40
+          },
+          {
+            "name": "multi react",
+            "size": 28,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 47
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 5016,
+    "unPureCssSize": 5081
+  }
+]
